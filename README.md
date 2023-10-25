@@ -42,6 +42,22 @@ If you are using **Opensearch** as a Vector Store, please configure the domain's
 
 > ⚠️ **Warning:** At this time, the sample supports Amazon Opensearch service's provisioned version
 
+## Initialization
+
+Initialize your Vector Database with the existing AWS Glue Data Catalog assets.
+
+**FAISS (LOCAL)**
+
+``` bash
+python3.8 init.py faiss
+```
+
+**FAISS (Opensearch)**
+
+``` bash
+python3.8 init.py opensearch
+```
+
 ## Usage
 
 Run the streamlit app
