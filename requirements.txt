@@ -1,5 +1,5 @@
 streamlit==1.27.0
-langchain==0.0.305
+langchain==0.0.325
 boto3==1.28.57
 faiss-cpu==1.7.4
 opensearch-py==2.3.1
